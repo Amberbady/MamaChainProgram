@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0365DE970F16D9B30A84C72A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0365DE970F16D9B30A84C72A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4CEC4910A8228E3883C0BC83 /* Pods-MamaChainProgram_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamaChainProgram_Example.debug.xcconfig"; path = "Target Support Files/Pods-MamaChainProgram_Example/Pods-MamaChainProgram_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		54BC1A53DE0CE1D091FBF302 /* Pods_MamaChainProgram_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamaChainProgram_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MamaChainProgram_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MamaChainProgram_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,13 +59,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6AE0B5F6F8F98B7D1D7E46ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6AE0B5F6F8F98B7D1D7E46ED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83166E7734B923CD9CB8B61B /* Pods-MamaChainProgram_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamaChainProgram_Tests.release.xcconfig"; path = "Target Support Files/Pods-MamaChainProgram_Tests/Pods-MamaChainProgram_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D093E934AF6A374B3DDB585 /* Pods_MamaChainProgram_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MamaChainProgram_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF339D12E36F30767CD66B2 /* Pods-MamaChainProgram_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamaChainProgram_Example.release.xcconfig"; path = "Target Support Files/Pods-MamaChainProgram_Example/Pods-MamaChainProgram_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DE31FC77C8CC43301AB53769 /* MamaChainProgram.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MamaChainProgram.podspec; path = ../MamaChainProgram.podspec; sourceTree = "<group>"; };
+		DE31FC77C8CC43301AB53769 /* MamaChainProgram.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MamaChainProgram.podspec; path = ../MamaChainProgram.podspec; sourceTree = "<group>"; };
 		ECDE5F24970DB52225AB3CD3 /* Pods-MamaChainProgram_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MamaChainProgram_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MamaChainProgram_Tests/Pods-MamaChainProgram_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				ECDE5F24970DB52225AB3CD3 /* Pods-MamaChainProgram_Tests.debug.xcconfig */,
 				83166E7734B923CD9CB8B61B /* Pods-MamaChainProgram_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = git;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 539H8N2VYM;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 4CEC4910A8228E3883C0BC83 /* Pods-MamaChainProgram_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MamaChainProgram/MamaChainProgram-Prefix.pch";
 				INFOPLIST_FILE = "MamaChainProgram/MamaChainProgram-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 8DF339D12E36F30767CD66B2 /* Pods-MamaChainProgram_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 539H8N2VYM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MamaChainProgram/MamaChainProgram-Prefix.pch";
 				INFOPLIST_FILE = "MamaChainProgram/MamaChainProgram-Info.plist";

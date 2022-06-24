@@ -7,27 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B801303D38D9CFF34815A988987B880 /* UILabel+ChainProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = E419CF992201B3EC5B85F1D82F375467 /* UILabel+ChainProgram.m */; };
 		12D8B0619F58FED337EDC6564A7FEFC4 /* Pods-MamaChainProgram_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6805BC4F47414E3C5345FABB9E461952 /* Pods-MamaChainProgram_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		134A055C8D8AF2B5B63133B5EE6B51C1 /* Pods-MamaChainProgram_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF7CEBB45CE51E8AFF2D966363231A1 /* Pods-MamaChainProgram_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1506CDE57CCE5AC46C1EA1EB2D90752B /* MamaUIViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E0F8E3D9A07AD9766A0E376374D9FD /* MamaUIViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2120D6592EA7DE1B3532702513954F3F /* MamaButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD91996065E256ED2B35AF6F0A6F968 /* MamaButtonManager.m */; };
 		2BB3027283FB95A7FDA0E81F0AC8C7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		324A87785AF1FBED7E74C584FB191BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		31C8B1CFF970EE4025B9F9B454CA2C4E /* UIImageView+ChainProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5547FC76CBA974F0DA4037075D99A4 /* UIImageView+ChainProgram.m */; };
+		5191D8E1049134992C478AE8B367BB4E /* MamaAttributedStringManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E23210CD4D890B3B54196EF154AE47 /* MamaAttributedStringManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		582ED21262ECF1EB22664562C5F5CF3B /* MamaUILabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEFEC7118EA97622E9E398EDFED6365 /* MamaUILabelManager.m */; };
 		5AADB6910640A27A811E4AC9076D2866 /* Pods-MamaChainProgram_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0644A18EA0596452EEA347F1B74735B9 /* Pods-MamaChainProgram_Example-dummy.m */; };
-		62CC17806BA31EE1915C3EA2C2A378F2 /* MamaChainProgram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E115D965E26D9461960D7C061F0BAFB8 /* MamaChainProgram-dummy.m */; };
-		811CC050F5B7928FB331B370687B323D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FA903120879A0F449DF4622F46B1625C /* ReplaceMe.m */; };
-		925C16D053A85D5972A7B40C2C810AB7 /* MamaChainProgram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C347F78E800296F000AB9B1EAC6AED9 /* MamaChainProgram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63188302E2342D69F44779D6E235DB30 /* UIButton+ChainProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6DD9DFE6B763378F2D38FFCB0FE1B5 /* UIButton+ChainProgram.m */; };
+		64C156F0BBA667BE7FBB7479F522F696 /* NSAttributedString+ChainProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D95A1D2D5FB81C0A9077559DFAC584 /* NSAttributedString+ChainProgram.m */; };
+		728462E71261D7413784ECE0BDFD5766 /* UIView+ChainProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D74D5BB1FFF9D4F3C2A02C320751846 /* UIView+ChainProgram.m */; };
+		77286623134863D96C03DC322893675B /* UIImageView+ChainProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 35849F8A5C1433BE7055635E2E911267 /* UIImageView+ChainProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A77F97644FCB157EDF46EA772E84DF /* MamaButtonManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A35F8E7903149F3611E14D1FD1B442 /* MamaButtonManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788A5C7AB8595B8B39D858F161A7D9D0 /* UIImage+ChainProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E936AD61F6A730B78FE5CDFFF68E3E /* UIImage+ChainProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C68E73AA17314367955DF7EB5ECDA45 /* MamaUIImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B4DFAD403F946950CE1C25E5113977 /* MamaUIImageViewManager.m */; };
+		83B83403F819217E9813A284C5D06B9B /* UILabel+ChainProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8F35D5C9FFE249339C26D0D4F571A6 /* UILabel+ChainProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		843CDDB78E1FCF2DF92300AC09E7C26D /* MamaUIImageViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B21878C8006AF01FE538D7DD5ABE96 /* MamaUIImageViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85186FD6E9EF614163B37372F50AABF6 /* NSAttributedString+ChainProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = D81EEFCB14D8171E1FAFA0DB66046613 /* NSAttributedString+ChainProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		864674EC4B167EE7098DC38134AF9851 /* MamaUIViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C701CE53D3FD6E91B89C543D69BD6856 /* MamaUIViewManager.m */; };
+		88B5A7E02FD5027F3078E146510EAE89 /* UIButton+ChainProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BBC49CF3EC6F00F8A7DA0E02507D7B0 /* UIButton+ChainProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1C4E0A1BFEFCD52E75D0C025245BD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5B1EDF8C1262C3B86884D2D89AC7575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C1756E4AF5836BCFA8EA3A1BAA2D05DD /* MamaUILabelManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D6FE4B75BC44E5ACF178EF66EFB6AD /* MamaUILabelManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A9D0367CD850DCC34F7B21AD17FB2D /* UIView+ChainProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B53FD6884D6AAC7BE1119C181AE9A3D /* UIView+ChainProgram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB76E94BBF310EA9372598D288053A3F /* MamaChainProgram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9292A6C5EF6FAA7F86F31B670FB41D55 /* MamaChainProgram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6DCF2F1CCE5F8A6BDD0B649A6CAA5C3 /* Pods-MamaChainProgram_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5075B9EFFE055ADADAF400C40BF02BF9 /* Pods-MamaChainProgram_Tests-dummy.m */; };
+		D91F685624420424AA132207DAF27999 /* MamaAttributedStringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51219B5DDB976870BD81BECF36F53F66 /* MamaAttributedStringManager.m */; };
+		E8E8A7BB90C120D7832A9255CA8DAD81 /* MamaChainProgram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53259B311987DA85722E0A94DE98148F /* MamaChainProgram-dummy.m */; };
+		F7A424C18676B27CD2E225F0BFB47530 /* MamaChainProgramHead.h in Headers */ = {isa = PBXBuildFile; fileRef = A4156C54D79111A227E85345A2E6435F /* MamaChainProgramHead.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F95F68BCF3AB4A097FA2DAE947E344A9 /* UIImage+ChainProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 3919292D20889688EC1A63D1C5BED0C1 /* UIImage+ChainProgram.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02A87EE10D0788634F7C63085BE8542A /* PBXContainerItemProxy */ = {
+		ACBD76B8E654DCD7FDC1A47D362AED04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BABE3166A3BB38D58704C65EA636C015;
 			remoteInfo = MamaChainProgram;
 		};
-		DC1023D224B21523DC150D7D4C8B598D /* PBXContainerItemProxy */ = {
+		F39A6CE99EC972A41E8C0889E4570593 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,38 +60,60 @@
 
 /* Begin PBXFileReference section */
 		0644A18EA0596452EEA347F1B74735B9 /* Pods-MamaChainProgram_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MamaChainProgram_Example-dummy.m"; sourceTree = "<group>"; };
-		177F815123A581BCBC263C541E557307 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1B5FCB83BEA53DB9EF195A700C70EA5E /* Pods-MamaChainProgram_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MamaChainProgram_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1DF7CEBB45CE51E8AFF2D966363231A1 /* Pods-MamaChainProgram_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MamaChainProgram_Example-umbrella.h"; sourceTree = "<group>"; };
+		2114C9E8D2CF7358AE6D8E088F47C5E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2122C78B49E919F816E3945467560212 /* Pods-MamaChainProgram_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MamaChainProgram_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		256BF477889E88F464A7037225D72187 /* MamaChainProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MamaChainProgram.debug.xcconfig; sourceTree = "<group>"; };
-		27091C5219BF5615EB78CE4516B015AB /* MamaChainProgram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MamaChainProgram.modulemap; sourceTree = "<group>"; };
+		28A35F8E7903149F3611E14D1FD1B442 /* MamaButtonManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaButtonManager.h; sourceTree = "<group>"; };
+		295AFF7DC92CD7F5F8B1BB95E2D1E34D /* MamaChainProgram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MamaChainProgram-prefix.pch"; sourceTree = "<group>"; };
 		2BCE02349BFE114C5414D8C8CD4854AE /* Pods-MamaChainProgram_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MamaChainProgram_Tests.modulemap"; sourceTree = "<group>"; };
+		2C5547FC76CBA974F0DA4037075D99A4 /* UIImageView+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ChainProgram.m"; sourceTree = "<group>"; };
+		2CD91996065E256ED2B35AF6F0A6F968 /* MamaButtonManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MamaButtonManager.m; sourceTree = "<group>"; };
 		2EA00C4ABA20E0351FB4CCC52BFC454C /* Pods-MamaChainProgram_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MamaChainProgram_Tests-Info.plist"; sourceTree = "<group>"; };
-		2EC5C96062DD710526D2B3426B0BDF5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		34A9842B3BB5BFCE25842885B52EF135 /* Pods-MamaChainProgram_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MamaChainProgram_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4EBB6ED1AEF5CD2893CE677A2859E31B /* MamaChainProgram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MamaChainProgram-Info.plist"; sourceTree = "<group>"; };
+		35849F8A5C1433BE7055635E2E911267 /* UIImageView+ChainProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ChainProgram.h"; sourceTree = "<group>"; };
+		38B4DFAD403F946950CE1C25E5113977 /* MamaUIImageViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MamaUIImageViewManager.m; sourceTree = "<group>"; };
+		3919292D20889688EC1A63D1C5BED0C1 /* UIImage+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChainProgram.m"; sourceTree = "<group>"; };
+		3D74D5BB1FFF9D4F3C2A02C320751846 /* UIView+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChainProgram.m"; sourceTree = "<group>"; };
 		4F723EAFA0F126F98D15D9544F005BD3 /* Pods-MamaChainProgram_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MamaChainProgram_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5075B9EFFE055ADADAF400C40BF02BF9 /* Pods-MamaChainProgram_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MamaChainProgram_Tests-dummy.m"; sourceTree = "<group>"; };
+		51219B5DDB976870BD81BECF36F53F66 /* MamaAttributedStringManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MamaAttributedStringManager.m; sourceTree = "<group>"; };
+		53259B311987DA85722E0A94DE98148F /* MamaChainProgram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MamaChainProgram-dummy.m"; sourceTree = "<group>"; };
+		60B21878C8006AF01FE538D7DD5ABE96 /* MamaUIImageViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaUIImageViewManager.h; sourceTree = "<group>"; };
 		610DC322153ED81786ACD17B3DA0F492 /* Pods-MamaChainProgram_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MamaChainProgram_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6132EDFAD42DBBD93AC0575D65F6D27A /* Pods-MamaChainProgram_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MamaChainProgram_Tests"; path = Pods_MamaChainProgram_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E936AD61F6A730B78FE5CDFFF68E3E /* UIImage+ChainProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChainProgram.h"; sourceTree = "<group>"; };
 		6805BC4F47414E3C5345FABB9E461952 /* Pods-MamaChainProgram_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MamaChainProgram_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6915A924154FD821CB936E4D67CC8343 /* Pods-MamaChainProgram_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MamaChainProgram_Example"; path = Pods_MamaChainProgram_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AAA080A989B92DA7B01354519BB5038 /* Pods-MamaChainProgram_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MamaChainProgram_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6B6F13176F5CD08DA585EA70463B7010 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73E0F8E3D9A07AD9766A0E376374D9FD /* MamaUIViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaUIViewManager.h; sourceTree = "<group>"; };
+		74D95A1D2D5FB81C0A9077559DFAC584 /* NSAttributedString+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ChainProgram.m"; sourceTree = "<group>"; };
+		7BBC49CF3EC6F00F8A7DA0E02507D7B0 /* UIButton+ChainProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+ChainProgram.h"; sourceTree = "<group>"; };
+		7F8F35D5C9FFE249339C26D0D4F571A6 /* UILabel+ChainProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChainProgram.h"; sourceTree = "<group>"; };
 		80CFCA31F9602243E62BF2168B2D0311 /* Pods-MamaChainProgram_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MamaChainProgram_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		849F0DD78369DC3A723922CC6C0CD55F /* Pods-MamaChainProgram_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MamaChainProgram_Example-Info.plist"; sourceTree = "<group>"; };
 		8AEA1471CEC02FF67677225A62B32E23 /* MamaChainProgram */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MamaChainProgram; path = MamaChainProgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C347F78E800296F000AB9B1EAC6AED9 /* MamaChainProgram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MamaChainProgram-umbrella.h"; sourceTree = "<group>"; };
+		8B53FD6884D6AAC7BE1119C181AE9A3D /* UIView+ChainProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ChainProgram.h"; sourceTree = "<group>"; };
+		8C6DD9DFE6B763378F2D38FFCB0FE1B5 /* UIButton+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ChainProgram.m"; sourceTree = "<group>"; };
+		9292A6C5EF6FAA7F86F31B670FB41D55 /* MamaChainProgram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MamaChainProgram-umbrella.h"; sourceTree = "<group>"; };
+		96E77B8A52ACE2145BF91B85EB7D8748 /* MamaChainProgram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MamaChainProgram-Info.plist"; sourceTree = "<group>"; };
+		9929EEBAD51D2EF297F5D16AC1FA692F /* MamaChainProgram.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MamaChainProgram.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A30AB4FB217A84506981580A5248DB04 /* Pods-MamaChainProgram_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MamaChainProgram_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4156C54D79111A227E85345A2E6435F /* MamaChainProgramHead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaChainProgramHead.h; sourceTree = "<group>"; };
+		B6D6FE4B75BC44E5ACF178EF66EFB6AD /* MamaUILabelManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaUILabelManager.h; sourceTree = "<group>"; };
 		BE14FE7BEDB928FF260A468AE5E6693A /* Pods-MamaChainProgram_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MamaChainProgram_Example.modulemap"; sourceTree = "<group>"; };
-		CE9169193313436F1D3F3C757CE19252 /* MamaChainProgram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MamaChainProgram-prefix.pch"; sourceTree = "<group>"; };
+		C701CE53D3FD6E91B89C543D69BD6856 /* MamaUIViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MamaUIViewManager.m; sourceTree = "<group>"; };
+		D618D3A10BE1E9CA5B303316651E6884 /* MamaChainProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MamaChainProgram.debug.xcconfig; sourceTree = "<group>"; };
+		D81EEFCB14D8171E1FAFA0DB66046613 /* NSAttributedString+ChainProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ChainProgram.h"; sourceTree = "<group>"; };
+		DBEFEC7118EA97622E9E398EDFED6365 /* MamaUILabelManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MamaUILabelManager.m; sourceTree = "<group>"; };
 		DE6708AB20810119AD93F3A9E45D9BC1 /* Pods-MamaChainProgram_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MamaChainProgram_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E060D7191B0189C878C30BEA7E590830 /* MamaChainProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MamaChainProgram.release.xcconfig; sourceTree = "<group>"; };
-		E115D965E26D9461960D7C061F0BAFB8 /* MamaChainProgram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MamaChainProgram-dummy.m"; sourceTree = "<group>"; };
-		E9E11273CB18D0270D116A9B8C746660 /* MamaChainProgram.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MamaChainProgram.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FA903120879A0F449DF4622F46B1625C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MamaChainProgram/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E419CF992201B3EC5B85F1D82F375467 /* UILabel+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChainProgram.m"; sourceTree = "<group>"; };
+		E4E23210CD4D890B3B54196EF154AE47 /* MamaAttributedStringManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaAttributedStringManager.h; sourceTree = "<group>"; };
+		FDCF328BA7B0ED1FB5CC6F4543728410 /* MamaChainProgram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MamaChainProgram.modulemap; sourceTree = "<group>"; };
+		FFDA2F06526B7C47C04B9D7A11E03FC9 /* MamaChainProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MamaChainProgram.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +125,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7223BB6AC713B189F47A9A899183872C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B1EDF8C1262C3B86884D2D89AC7575 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D249DB0B0CFF434190136D4B1C3311DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,38 +141,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5098A3A11C6BAB2346181C6CB9AD54E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				324A87785AF1FBED7E74C584FB191BC2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		236CDAB77C23DE37ED7FEBC8606A77BD /* Development Pods */ = {
+		0168D910246DD56969B3744C633988DF /* MamaChainProgram */ = {
 			isa = PBXGroup;
 			children = (
-				C91A3DDDE63FEE04CCD4F1B3260CDBAB /* MamaChainProgram */,
+				850D1ED58A158638F75DB544E7307CD0 /* Category */,
+				A1DBC3157BAA4EB0A7840DC9EE89545F /* Header */,
+				618265145EF1AF4F3BE6808391B3AF57 /* Manager */,
+				0F8A84B1D929291976B4F7A71349E60E /* Pod */,
+				5BE4FC56DE7E7EACAE6C81B4A0A89F4E /* Support Files */,
 			);
-			name = "Development Pods";
+			name = MamaChainProgram;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		26A44DF852DF9C7693EC641C89458059 /* Support Files */ = {
+		0F8A84B1D929291976B4F7A71349E60E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				27091C5219BF5615EB78CE4516B015AB /* MamaChainProgram.modulemap */,
-				E115D965E26D9461960D7C061F0BAFB8 /* MamaChainProgram-dummy.m */,
-				4EBB6ED1AEF5CD2893CE677A2859E31B /* MamaChainProgram-Info.plist */,
-				CE9169193313436F1D3F3C757CE19252 /* MamaChainProgram-prefix.pch */,
-				8C347F78E800296F000AB9B1EAC6AED9 /* MamaChainProgram-umbrella.h */,
-				256BF477889E88F464A7037225D72187 /* MamaChainProgram.debug.xcconfig */,
-				E060D7191B0189C878C30BEA7E590830 /* MamaChainProgram.release.xcconfig */,
+				2114C9E8D2CF7358AE6D8E088F47C5E9 /* LICENSE */,
+				9929EEBAD51D2EF297F5D16AC1FA692F /* MamaChainProgram.podspec */,
+				6B6F13176F5CD08DA585EA70463B7010 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MamaChainProgram";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1328896128A9D911CB68B037208E21C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0168D910246DD56969B3744C633988DF /* MamaChainProgram */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		27C7414938E6E952DF8202CDDE125D20 /* Products */ = {
@@ -167,32 +219,73 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		83C87E2802C0193D9B80370D81AF15E6 /* Pod */ = {
+		5BE4FC56DE7E7EACAE6C81B4A0A89F4E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2EC5C96062DD710526D2B3426B0BDF5C /* LICENSE */,
-				E9E11273CB18D0270D116A9B8C746660 /* MamaChainProgram.podspec */,
-				177F815123A581BCBC263C541E557307 /* README.md */,
+				FDCF328BA7B0ED1FB5CC6F4543728410 /* MamaChainProgram.modulemap */,
+				53259B311987DA85722E0A94DE98148F /* MamaChainProgram-dummy.m */,
+				96E77B8A52ACE2145BF91B85EB7D8748 /* MamaChainProgram-Info.plist */,
+				295AFF7DC92CD7F5F8B1BB95E2D1E34D /* MamaChainProgram-prefix.pch */,
+				9292A6C5EF6FAA7F86F31B670FB41D55 /* MamaChainProgram-umbrella.h */,
+				D618D3A10BE1E9CA5B303316651E6884 /* MamaChainProgram.debug.xcconfig */,
+				FFDA2F06526B7C47C04B9D7A11E03FC9 /* MamaChainProgram.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MamaChainProgram";
 			sourceTree = "<group>";
 		};
-		C91A3DDDE63FEE04CCD4F1B3260CDBAB /* MamaChainProgram */ = {
+		618265145EF1AF4F3BE6808391B3AF57 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				FA903120879A0F449DF4622F46B1625C /* ReplaceMe.m */,
-				83C87E2802C0193D9B80370D81AF15E6 /* Pod */,
-				26A44DF852DF9C7693EC641C89458059 /* Support Files */,
+				E4E23210CD4D890B3B54196EF154AE47 /* MamaAttributedStringManager.h */,
+				51219B5DDB976870BD81BECF36F53F66 /* MamaAttributedStringManager.m */,
+				28A35F8E7903149F3611E14D1FD1B442 /* MamaButtonManager.h */,
+				2CD91996065E256ED2B35AF6F0A6F968 /* MamaButtonManager.m */,
+				60B21878C8006AF01FE538D7DD5ABE96 /* MamaUIImageViewManager.h */,
+				38B4DFAD403F946950CE1C25E5113977 /* MamaUIImageViewManager.m */,
+				B6D6FE4B75BC44E5ACF178EF66EFB6AD /* MamaUILabelManager.h */,
+				DBEFEC7118EA97622E9E398EDFED6365 /* MamaUILabelManager.m */,
+				73E0F8E3D9A07AD9766A0E376374D9FD /* MamaUIViewManager.h */,
+				C701CE53D3FD6E91B89C543D69BD6856 /* MamaUIViewManager.m */,
 			);
-			name = MamaChainProgram;
-			path = ../..;
+			name = Manager;
+			path = MamaChainProgram/Classes/Manager;
+			sourceTree = "<group>";
+		};
+		850D1ED58A158638F75DB544E7307CD0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D81EEFCB14D8171E1FAFA0DB66046613 /* NSAttributedString+ChainProgram.h */,
+				74D95A1D2D5FB81C0A9077559DFAC584 /* NSAttributedString+ChainProgram.m */,
+				7BBC49CF3EC6F00F8A7DA0E02507D7B0 /* UIButton+ChainProgram.h */,
+				8C6DD9DFE6B763378F2D38FFCB0FE1B5 /* UIButton+ChainProgram.m */,
+				61E936AD61F6A730B78FE5CDFFF68E3E /* UIImage+ChainProgram.h */,
+				3919292D20889688EC1A63D1C5BED0C1 /* UIImage+ChainProgram.m */,
+				35849F8A5C1433BE7055635E2E911267 /* UIImageView+ChainProgram.h */,
+				2C5547FC76CBA974F0DA4037075D99A4 /* UIImageView+ChainProgram.m */,
+				7F8F35D5C9FFE249339C26D0D4F571A6 /* UILabel+ChainProgram.h */,
+				E419CF992201B3EC5B85F1D82F375467 /* UILabel+ChainProgram.m */,
+				8B53FD6884D6AAC7BE1119C181AE9A3D /* UIView+ChainProgram.h */,
+				3D74D5BB1FFF9D4F3C2A02C320751846 /* UIView+ChainProgram.m */,
+			);
+			name = Category;
+			path = MamaChainProgram/Classes/Category;
+			sourceTree = "<group>";
+		};
+		A1DBC3157BAA4EB0A7840DC9EE89545F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				A4156C54D79111A227E85345A2E6435F /* MamaChainProgramHead.h */,
+			);
+			name = Header;
+			path = MamaChainProgram/Classes/Header;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				236CDAB77C23DE37ED7FEBC8606A77BD /* Development Pods */,
+				1328896128A9D911CB68B037208E21C1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				27C7414938E6E952DF8202CDDE125D20 /* Products */,
 				3C59FD83E5146C10531824B1A04FE992 /* Targets Support Files */,
@@ -234,19 +327,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3F5E2D7A05F4B2F0608772A93B1E42F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5191D8E1049134992C478AE8B367BB4E /* MamaAttributedStringManager.h in Headers */,
+				77A77F97644FCB157EDF46EA772E84DF /* MamaButtonManager.h in Headers */,
+				CB76E94BBF310EA9372598D288053A3F /* MamaChainProgram-umbrella.h in Headers */,
+				F7A424C18676B27CD2E225F0BFB47530 /* MamaChainProgramHead.h in Headers */,
+				843CDDB78E1FCF2DF92300AC09E7C26D /* MamaUIImageViewManager.h in Headers */,
+				C1756E4AF5836BCFA8EA3A1BAA2D05DD /* MamaUILabelManager.h in Headers */,
+				1506CDE57CCE5AC46C1EA1EB2D90752B /* MamaUIViewManager.h in Headers */,
+				85186FD6E9EF614163B37372F50AABF6 /* NSAttributedString+ChainProgram.h in Headers */,
+				88B5A7E02FD5027F3078E146510EAE89 /* UIButton+ChainProgram.h in Headers */,
+				788A5C7AB8595B8B39D858F161A7D9D0 /* UIImage+ChainProgram.h in Headers */,
+				77286623134863D96C03DC322893675B /* UIImageView+ChainProgram.h in Headers */,
+				83B83403F819217E9813A284C5D06B9B /* UILabel+ChainProgram.h in Headers */,
+				C1A9D0367CD850DCC34F7B21AD17FB2D /* UIView+ChainProgram.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F78B171A6A21A3F4F0A3624769CE35C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				12D8B0619F58FED337EDC6564A7FEFC4 /* Pods-MamaChainProgram_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FDA35BEF5D2649A16C05A6A3BE446412 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				925C16D053A85D5972A7B40C2C810AB7 /* MamaChainProgram-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +370,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1CFBD1C7AE7B924383E5841601239063 /* PBXTargetDependency */,
+				4B53FD9A57B35DB6369C01CBF4C4184C /* PBXTargetDependency */,
 			);
 			name = "Pods-MamaChainProgram_Tests";
 			productName = Pods_MamaChainProgram_Tests;
@@ -284,7 +389,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F4DE404B3FFB475E4897B05F86D5D46A /* PBXTargetDependency */,
+				7E027C340B8A2D5E49DF98090F94CE8E /* PBXTargetDependency */,
 			);
 			name = "Pods-MamaChainProgram_Example";
 			productName = Pods_MamaChainProgram_Example;
@@ -293,12 +398,12 @@
 		};
 		BABE3166A3BB38D58704C65EA636C015 /* MamaChainProgram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 229182DE2EDAD5412589D70A6F46FA9B /* Build configuration list for PBXNativeTarget "MamaChainProgram" */;
+			buildConfigurationList = 90241BEF4B8A5F4EBE9587B3176AE0A2 /* Build configuration list for PBXNativeTarget "MamaChainProgram" */;
 			buildPhases = (
-				FDA35BEF5D2649A16C05A6A3BE446412 /* Headers */,
-				179B363946315EE927A73453D459404F /* Sources */,
-				F5098A3A11C6BAB2346181C6CB9AD54E /* Frameworks */,
-				BBA2FD9C83904884B10E5B81B1CCDEF1 /* Resources */,
+				D3F5E2D7A05F4B2F0608772A93B1E42F /* Headers */,
+				8B0AEC6F6957F983EF0322FC6EF01BCD /* Sources */,
+				7223BB6AC713B189F47A9A899183872C /* Frameworks */,
+				71CBEE0400E175B6D60107477F9EB163 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -353,7 +458,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBA2FD9C83904884B10E5B81B1CCDEF1 /* Resources */ = {
+		71CBEE0400E175B6D60107477F9EB163 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +468,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		179B363946315EE927A73453D459404F /* Sources */ = {
+		8B0AEC6F6957F983EF0322FC6EF01BCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62CC17806BA31EE1915C3EA2C2A378F2 /* MamaChainProgram-dummy.m in Sources */,
-				811CC050F5B7928FB331B370687B323D /* ReplaceMe.m in Sources */,
+				D91F685624420424AA132207DAF27999 /* MamaAttributedStringManager.m in Sources */,
+				2120D6592EA7DE1B3532702513954F3F /* MamaButtonManager.m in Sources */,
+				E8E8A7BB90C120D7832A9255CA8DAD81 /* MamaChainProgram-dummy.m in Sources */,
+				7C68E73AA17314367955DF7EB5ECDA45 /* MamaUIImageViewManager.m in Sources */,
+				582ED21262ECF1EB22664562C5F5CF3B /* MamaUILabelManager.m in Sources */,
+				864674EC4B167EE7098DC38134AF9851 /* MamaUIViewManager.m in Sources */,
+				64C156F0BBA667BE7FBB7479F522F696 /* NSAttributedString+ChainProgram.m in Sources */,
+				63188302E2342D69F44779D6E235DB30 /* UIButton+ChainProgram.m in Sources */,
+				F95F68BCF3AB4A097FA2DAE947E344A9 /* UIImage+ChainProgram.m in Sources */,
+				31C8B1CFF970EE4025B9F9B454CA2C4E /* UIImageView+ChainProgram.m in Sources */,
+				0B801303D38D9CFF34815A988987B880 /* UILabel+ChainProgram.m in Sources */,
+				728462E71261D7413784ECE0BDFD5766 /* UIView+ChainProgram.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,17 +506,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1CFBD1C7AE7B924383E5841601239063 /* PBXTargetDependency */ = {
+		4B53FD9A57B35DB6369C01CBF4C4184C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MamaChainProgram_Example";
 			target = 90CE41A2984D3E26394B9F9A7A6B90EB /* Pods-MamaChainProgram_Example */;
-			targetProxy = DC1023D224B21523DC150D7D4C8B598D /* PBXContainerItemProxy */;
+			targetProxy = F39A6CE99EC972A41E8C0889E4570593 /* PBXContainerItemProxy */;
 		};
-		F4DE404B3FFB475E4897B05F86D5D46A /* PBXTargetDependency */ = {
+		7E027C340B8A2D5E49DF98090F94CE8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MamaChainProgram;
 			target = BABE3166A3BB38D58704C65EA636C015 /* MamaChainProgram */;
-			targetProxy = 02A87EE10D0788634F7C63085BE8542A /* PBXContainerItemProxy */;
+			targetProxy = ACBD76B8E654DCD7FDC1A47D362AED04 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,67 +620,6 @@
 			};
 			name = Release;
 		};
-		5A652F9DABC4CDB96413974CE6AB6A7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E060D7191B0189C878C30BEA7E590830 /* MamaChainProgram.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MamaChainProgram/MamaChainProgram-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MamaChainProgram/MamaChainProgram-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MamaChainProgram/MamaChainProgram.modulemap";
-				PRODUCT_MODULE_NAME = MamaChainProgram;
-				PRODUCT_NAME = MamaChainProgram;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E107864519D815F5FA0CCC56B9CBC16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 256BF477889E88F464A7037225D72187 /* MamaChainProgram.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MamaChainProgram/MamaChainProgram-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MamaChainProgram/MamaChainProgram-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MamaChainProgram/MamaChainProgram.modulemap";
-				PRODUCT_MODULE_NAME = MamaChainProgram;
-				PRODUCT_NAME = MamaChainProgram;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6BD60AE748BC8546DF90F65B158C4C99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B5FCB83BEA53DB9EF195A700C70EA5E /* Pods-MamaChainProgram_Tests.debug.xcconfig */;
@@ -592,6 +646,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA13173D347608A34979DC4336F4BA44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D618D3A10BE1E9CA5B303316651E6884 /* MamaChainProgram.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MamaChainProgram/MamaChainProgram-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MamaChainProgram/MamaChainProgram-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MamaChainProgram/MamaChainProgram.modulemap";
+				PRODUCT_MODULE_NAME = MamaChainProgram;
+				PRODUCT_NAME = MamaChainProgram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -693,6 +777,37 @@
 			};
 			name = Release;
 		};
+		F4FC6ADC828CEAAD06AFFCB275F69A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDA2F06526B7C47C04B9D7A11E03FC9 /* MamaChainProgram.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MamaChainProgram/MamaChainProgram-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MamaChainProgram/MamaChainProgram-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MamaChainProgram/MamaChainProgram.modulemap";
+				PRODUCT_MODULE_NAME = MamaChainProgram;
+				PRODUCT_NAME = MamaChainProgram;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FDCDB2272FC3334681B0838CAD4E2170 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6AAA080A989B92DA7B01354519BB5038 /* Pods-MamaChainProgram_Example.debug.xcconfig */;
@@ -728,15 +843,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		229182DE2EDAD5412589D70A6F46FA9B /* Build configuration list for PBXNativeTarget "MamaChainProgram" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E107864519D815F5FA0CCC56B9CBC16 /* Debug */,
-				5A652F9DABC4CDB96413974CE6AB6A7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -751,6 +857,15 @@
 			buildConfigurations = (
 				FDCDB2272FC3334681B0838CAD4E2170 /* Debug */,
 				25DDD5B85699AB29D27A8903CC3C149D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90241BEF4B8A5F4EBE9587B3176AE0A2 /* Build configuration list for PBXNativeTarget "MamaChainProgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA13173D347608A34979DC4336F4BA44 /* Debug */,
+				F4FC6ADC828CEAAD06AFFCB275F69A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

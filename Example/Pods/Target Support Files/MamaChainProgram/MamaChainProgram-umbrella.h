@@ -10,6 +10,18 @@
 #endif
 #endif
 
+#import "NSAttributedString+ChainProgram.h"
+#import "UIButton+ChainProgram.h"
+#import "UIImage+ChainProgram.h"
+#import "UIImageView+ChainProgram.h"
+#import "UILabel+ChainProgram.h"
+#import "UIView+ChainProgram.h"
+#import "MamaChainProgramHead.h"
+#import "MamaAttributedStringManager.h"
+#import "MamaButtonManager.h"
+#import "MamaUIImageViewManager.h"
+#import "MamaUILabelManager.h"
+#import "MamaUIViewManager.h"
 
 FOUNDATION_EXPORT double MamaChainProgramVersionNumber;
 FOUNDATION_EXPORT const unsigned char MamaChainProgramVersionString[];
