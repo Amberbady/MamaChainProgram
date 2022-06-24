@@ -1,0 +1,6 @@
+framework module Pods_MamaChainProgram_Example {
+  umbrella header "Pods-MamaChainProgram_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

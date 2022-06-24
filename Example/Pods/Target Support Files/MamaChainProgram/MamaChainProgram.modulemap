@@ -1,0 +1,6 @@
+framework module MamaChainProgram {
+  umbrella header "MamaChainProgram-umbrella.h"
+
+  export *
+  module * { export * }
+}

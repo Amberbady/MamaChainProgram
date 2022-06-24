@@ -1,0 +1,22 @@
+{
+  "name": "MamaChainProgram",
+  "version": "0.1.0",
+  "summary": "A short description of MamaChainProgram.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/git/MamaChainProgram",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "git": "liaoshen@mama.cn"
+  },
+  "source": {
+    "git": "https://github.com/git/MamaChainProgram.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MamaChainProgram/Classes/**/*"
+}
