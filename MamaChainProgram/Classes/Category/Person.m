@@ -11,4 +11,8 @@
 + (void)eat{
     NSLog(@"开始吃饭啦");
 }
+
+- (void)run{
+    NSLog(@"开始跑步啦");
+}
 @end
