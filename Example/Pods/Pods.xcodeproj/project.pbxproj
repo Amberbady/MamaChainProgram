@@ -13,6 +13,8 @@
 		1506CDE57CCE5AC46C1EA1EB2D90752B /* MamaUIViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E0F8E3D9A07AD9766A0E376374D9FD /* MamaUIViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2120D6592EA7DE1B3532702513954F3F /* MamaButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD91996065E256ED2B35AF6F0A6F968 /* MamaButtonManager.m */; };
 		2BB3027283FB95A7FDA0E81F0AC8C7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2E9517192865971B00E899B3 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9517172865971B00E899B3 /* Person.h */; };
+		2E95171A2865971B00E899B3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9517182865971B00E899B3 /* Person.m */; };
 		31C8B1CFF970EE4025B9F9B454CA2C4E /* UIImageView+ChainProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5547FC76CBA974F0DA4037075D99A4 /* UIImageView+ChainProgram.m */; };
 		5191D8E1049134992C478AE8B367BB4E /* MamaAttributedStringManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E23210CD4D890B3B54196EF154AE47 /* MamaAttributedStringManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		582ED21262ECF1EB22664562C5F5CF3B /* MamaUILabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEFEC7118EA97622E9E398EDFED6365 /* MamaUILabelManager.m */; };
@@ -62,13 +64,15 @@
 		0644A18EA0596452EEA347F1B74735B9 /* Pods-MamaChainProgram_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MamaChainProgram_Example-dummy.m"; sourceTree = "<group>"; };
 		1B5FCB83BEA53DB9EF195A700C70EA5E /* Pods-MamaChainProgram_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MamaChainProgram_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1DF7CEBB45CE51E8AFF2D966363231A1 /* Pods-MamaChainProgram_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MamaChainProgram_Example-umbrella.h"; sourceTree = "<group>"; };
-		2114C9E8D2CF7358AE6D8E088F47C5E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2114C9E8D2CF7358AE6D8E088F47C5E9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2122C78B49E919F816E3945467560212 /* Pods-MamaChainProgram_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MamaChainProgram_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28A35F8E7903149F3611E14D1FD1B442 /* MamaButtonManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaButtonManager.h; sourceTree = "<group>"; };
 		295AFF7DC92CD7F5F8B1BB95E2D1E34D /* MamaChainProgram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MamaChainProgram-prefix.pch"; sourceTree = "<group>"; };
 		2BCE02349BFE114C5414D8C8CD4854AE /* Pods-MamaChainProgram_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MamaChainProgram_Tests.modulemap"; sourceTree = "<group>"; };
 		2C5547FC76CBA974F0DA4037075D99A4 /* UIImageView+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ChainProgram.m"; sourceTree = "<group>"; };
 		2CD91996065E256ED2B35AF6F0A6F968 /* MamaButtonManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MamaButtonManager.m; sourceTree = "<group>"; };
+		2E9517172865971B00E899B3 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2E9517182865971B00E899B3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		2EA00C4ABA20E0351FB4CCC52BFC454C /* Pods-MamaChainProgram_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MamaChainProgram_Tests-Info.plist"; sourceTree = "<group>"; };
 		34A9842B3BB5BFCE25842885B52EF135 /* Pods-MamaChainProgram_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MamaChainProgram_Example-frameworks.sh"; sourceTree = "<group>"; };
 		35849F8A5C1433BE7055635E2E911267 /* UIImageView+ChainProgram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ChainProgram.h"; sourceTree = "<group>"; };
@@ -86,7 +90,7 @@
 		6805BC4F47414E3C5345FABB9E461952 /* Pods-MamaChainProgram_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MamaChainProgram_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6915A924154FD821CB936E4D67CC8343 /* Pods-MamaChainProgram_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MamaChainProgram_Example"; path = Pods_MamaChainProgram_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AAA080A989B92DA7B01354519BB5038 /* Pods-MamaChainProgram_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MamaChainProgram_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6B6F13176F5CD08DA585EA70463B7010 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B6F13176F5CD08DA585EA70463B7010 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73E0F8E3D9A07AD9766A0E376374D9FD /* MamaUIViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaUIViewManager.h; sourceTree = "<group>"; };
 		74D95A1D2D5FB81C0A9077559DFAC584 /* NSAttributedString+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ChainProgram.m"; sourceTree = "<group>"; };
@@ -99,8 +103,8 @@
 		8C6DD9DFE6B763378F2D38FFCB0FE1B5 /* UIButton+ChainProgram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ChainProgram.m"; sourceTree = "<group>"; };
 		9292A6C5EF6FAA7F86F31B670FB41D55 /* MamaChainProgram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MamaChainProgram-umbrella.h"; sourceTree = "<group>"; };
 		96E77B8A52ACE2145BF91B85EB7D8748 /* MamaChainProgram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MamaChainProgram-Info.plist"; sourceTree = "<group>"; };
-		9929EEBAD51D2EF297F5D16AC1FA692F /* MamaChainProgram.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MamaChainProgram.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9929EEBAD51D2EF297F5D16AC1FA692F /* MamaChainProgram.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MamaChainProgram.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A30AB4FB217A84506981580A5248DB04 /* Pods-MamaChainProgram_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MamaChainProgram_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A4156C54D79111A227E85345A2E6435F /* MamaChainProgramHead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaChainProgramHead.h; sourceTree = "<group>"; };
 		B6D6FE4B75BC44E5ACF178EF66EFB6AD /* MamaUILabelManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MamaUILabelManager.h; sourceTree = "<group>"; };
@@ -267,6 +271,8 @@
 				E419CF992201B3EC5B85F1D82F375467 /* UILabel+ChainProgram.m */,
 				8B53FD6884D6AAC7BE1119C181AE9A3D /* UIView+ChainProgram.h */,
 				3D74D5BB1FFF9D4F3C2A02C320751846 /* UIView+ChainProgram.m */,
+				2E9517172865971B00E899B3 /* Person.h */,
+				2E9517182865971B00E899B3 /* Person.m */,
 			);
 			name = Category;
 			path = MamaChainProgram/Classes/Category;
@@ -336,6 +342,7 @@
 				CB76E94BBF310EA9372598D288053A3F /* MamaChainProgram-umbrella.h in Headers */,
 				F7A424C18676B27CD2E225F0BFB47530 /* MamaChainProgramHead.h in Headers */,
 				843CDDB78E1FCF2DF92300AC09E7C26D /* MamaUIImageViewManager.h in Headers */,
+				2E9517192865971B00E899B3 /* Person.h in Headers */,
 				C1756E4AF5836BCFA8EA3A1BAA2D05DD /* MamaUILabelManager.h in Headers */,
 				1506CDE57CCE5AC46C1EA1EB2D90752B /* MamaUIViewManager.h in Headers */,
 				85186FD6E9EF614163B37372F50AABF6 /* NSAttributedString+ChainProgram.h in Headers */,
@@ -481,6 +488,7 @@
 				64C156F0BBA667BE7FBB7479F522F696 /* NSAttributedString+ChainProgram.m in Sources */,
 				63188302E2342D69F44779D6E235DB30 /* UIButton+ChainProgram.m in Sources */,
 				F95F68BCF3AB4A097FA2DAE947E344A9 /* UIImage+ChainProgram.m in Sources */,
+				2E95171A2865971B00E899B3 /* Person.m in Sources */,
 				31C8B1CFF970EE4025B9F9B454CA2C4E /* UIImageView+ChainProgram.m in Sources */,
 				0B801303D38D9CFF34815A988987B880 /* UILabel+ChainProgram.m in Sources */,
 				728462E71261D7413784ECE0BDFD5766 /* UIView+ChainProgram.m in Sources */,
@@ -737,8 +745,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
